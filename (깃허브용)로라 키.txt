@@ -1,0 +1,19 @@
+1. 사용자 인증키(uKey) : cEdkZTdtWlRFM2ZMT24xWFVIQ0F2TkRjeFE0VFYyMjdGTXpMcG5aSWVLQUZGN.................==
+
+2 AppEui : 000000000........
+  DevEui: .....FFFFE1D15C4
+
+3.LTID(CSE-ID) : 0000000.....1ffffe1d15c4
+
+
+
+
+04.contentInstanc 클릭 -> GET <lastest> RETRIEVE 클릭 -> Headers클릭 -> 아래 내용 입력
+Accept : application/xml
+X-M2M-RI: 1234
+X-M2M-Origin: Origin
+uKey: cEdkZTdtWlRFM2ZMT24xWFVIQ0F2TkRjeFE0VFYyMjdGTXpMcG5aSWVLQUZGN.....................==
+
+-> 위쪽 GET버튼옆에 아래텍스트 입력
+http://thingplugtest.sktiot.com:9000/0000000000000004/v1_0/remoteCSE-0000000........ffffe1d15c4/container-LoRa/latest
+-> 입력후 SEND
